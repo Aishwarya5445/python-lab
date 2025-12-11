@@ -1,0 +1,14 @@
+a=10
+print(type(a))
+b=10.05
+print(type(b))
+c="aishu"
+print(type(c))
+d=[1,2,3,4,5]
+print(type(d))
+e=(1,2,3,4,5)
+print(type(e))
+f={1,2,3,4}
+print(type(f))
+g={1:"aishu",2:"sowmya"}
+print(type(g))
