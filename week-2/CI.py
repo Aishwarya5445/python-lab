@@ -1,0 +1,6 @@
+p=float(input("enter principle value:"))
+t=float(input("enter time :"))
+r=float(input("enter rate_of_interest value:"))
+n=float(input("frequency:"))
+CI=p*(1+(r/100)/n)**(n*t)
+print("compound interest:",CI)
