@@ -1,0 +1,6 @@
+print("Hello\nworld")
+print('python\tlab')
+print("C:\\desktop\\aishu")
+print("i\'m a B-tech student ")
+print("\"i\'m in cse secton-C\"")
+print("hello cse \bStudents")
