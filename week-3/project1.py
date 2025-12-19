@@ -1,0 +1,18 @@
+marks=[100,99,34,56,55,23,50,56,78,34,56,78,55,67,45]
+import numpy as np
+npmarks=np.array(marks)
+print("it is a ",np.ndim(marks),"dimensional array")
+print("total students are:",npmarks.size)
+print("highest marks:",np.max(npmarks))
+print("lowest marks:",np.min(npmarks))
+print("avarage marks:",np.mean(npmarks))
+print("the marks of the students",npmarks)
+print(np.where(npmarks>=35,"pass","fail"))
+print("\n class average:\n")
+print(np.where(npmarks>50),"above average")
+print(np.where(npmarks<50),"below average")
+print(np.where(npmarks==50)," average")
+print(npmarks)
+print(np.where(npmarks>50,"above average","below average"))
+res = np.where(npmarks < 50, "below average", np.where(npmarks >50, " above average", "average"))
+print("result is:",res)

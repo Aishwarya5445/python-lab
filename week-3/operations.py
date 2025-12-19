@@ -1,0 +1,21 @@
+import numpy as np
+lst1=[4,12,9,81,100]
+lst2=[2,6,3,9,10]
+print("max value in list1:",max(lst1))
+print("max value in list2:",max(lst2))
+nparray1=np.array(lst1)
+nparray2=np.array(lst2)
+print("list1:",lst1)
+print("type of list 1:",type(lst1))
+print("using numpy function array to list1:",nparray1)
+print("its type:",type(nparray1))
+print("list2:",lst2)
+print("type of list2:",type(lst2))
+print("using numpy function array to list2:",nparray2)
+print("its type:",type(nparray2))
+print("sum of two lists:",nparray1+nparray2)
+print("sub of two lists:",nparray1-nparray2)
+print("mul of two lists:",nparray1*nparray2)
+print("div of two lists:",nparray1/nparray2)
+print("max value in nparray1:",max(nparray1))
+print("max value in nparray2:",max(nparray2))
