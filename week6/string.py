@@ -1,0 +1,13 @@
+s = input("Enter a string: ")
+
+print("Length of string:", len(s))
+print("Uppercase:", s.upper())
+print("Lowercase:", s.lower())
+print("Title case:", s.title())
+print("Capitalized:", s.capitalize())
+print("Starts with 'a':", s.startswith('a'))
+print("Ends with 'z':", s.endswith('z'))
+print("Replaced string:", s.replace("a", "x"))
+print("Index of 'a':", s.find('a'))
+print("Is alphabetic:", s.isalpha())
+print("Is numeric:", s.isdigit())
