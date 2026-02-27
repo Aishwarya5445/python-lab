@@ -1,0 +1,5 @@
+Hello World
+Welcome to Python File Handling concept
+implementing the read method using read() and readlines().
+implementing write methods as write() and writelines().
+the basic operations of files is open, write, read and close.
